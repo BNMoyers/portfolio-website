@@ -2215,7 +2215,7 @@ input, select, textarea {
 		#footer h2 {
 			text-align: center;
 		}
-#footer form, h2, .icons {
+#footer form, #footer h2, .icons {
 	display: none;
 }
 /* Copyright */
