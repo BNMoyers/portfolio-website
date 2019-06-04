@@ -1927,6 +1927,7 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		cursor: default;
+		display: none;
 	}
 
 		#nav > ul > li {
@@ -2140,6 +2141,7 @@ input, select, textarea {
 		overflow: hidden;
 		background: #fff;
 		padding: 6em 0;
+		display: none;
 	}
 
 /* Content */
@@ -2150,14 +2152,18 @@ input, select, textarea {
 		box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
 		margin: 5em 0 0 0;
 		padding: 5em 0 0 0;
+		display: none;
 	}
-
+#footer div section p {
+	display: none;
+}
 		#content > section:first-child,
 		#content > article:first-child {
 			border-top: 0;
 			box-shadow: none;
 			margin: 0;
 			padding: 0;
+			display: none;
 		}
 
 /* Sidebar */
@@ -2168,6 +2174,7 @@ input, select, textarea {
 		box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
 		margin: 5em 0 0 0;
 		padding: 5em 0 0 0;
+		display: none;
 	}
 
 		#sidebar > section:first-child,
@@ -2186,6 +2193,7 @@ input, select, textarea {
 		border-top: solid 2px #e5e5e5;
 		background: #f0f0f0;
 		padding: 6em 0 8em 0;
+		
 	}
 
 		#footer form input[type="text"],
@@ -2207,7 +2215,9 @@ input, select, textarea {
 		#footer h2 {
 			text-align: center;
 		}
-
+#footer form, h2, .icons {
+	display: none;
+}
 /* Copyright */
 
 	#copyright {
